@@ -1,10 +1,11 @@
+###Registro de usuario
 POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
-    "name":"prueba3",
-    "email": "raul.paez@outlook.com",
-    "password": "Pass_123"
+    "name":"prueba1",
+    "email": "admin@gmail.com",
+    "password": "123456"
 }
 
 ### login sin conexion a BDD
@@ -12,11 +13,11 @@ POST http://127.0.0.1:3000/auth/login
 Content-Type: application/json
 
 {
-    "name":"pruebaRP",
-    "email": "raul.paez@outlook.com",
-    "password": "Pass_123"
-}
+    "name":"prueba2",
+    "email": "admin@gmail.com",
+    "password": "123456"
+} 
 
 ### users
-GET http://127.0.0.1:3000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhdWwucGFlekBvdXRsb29rLmNvbSIsImlkIjoxLCJpYXQiOjE3MjgzOTg4MzQsImV4cCI6MTcyODQ0MjAzNH0.jTGwGoBWvrb-PBFr3vcdhHWR7ZNIG-0bcqX9BJoe6IQ
+Get http://127.0.0.1:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluLkBnbWFpbC5jb20iLCJpZCI6MSwiaWF0IjoxNzM0Mzc3MDgzLCJleHAiOjE3MzQ0MjAyODN9.4luXhKTWeiyfORpeRsZrrLNJ2WqB-c9X0_1Wj2yILZ8
